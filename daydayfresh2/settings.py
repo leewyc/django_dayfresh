@@ -138,3 +138,13 @@ STATICFILES_DIRS=[
 #开发阶段 静态界面上传目录
 MEDIA_ROOT=os.path.join(BASE_DIR,'static')
 #MEDIA_ROOT=/var/www/nginx/xxx   最终配置的肯定是把静态页面放在nginx上，或者是静态服务器上
+
+
+#配置富文本编辑器
+
+
+TINYMCE_DEFAULT_CONFIG = {
+	'theme':'advanced',
+	'width':600,
+	'height':400,
+	}
